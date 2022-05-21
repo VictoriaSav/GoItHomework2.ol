@@ -48,8 +48,7 @@
         letter-spacing: 0.02em;
         color: var(--color_text);
 }
-.contact,
-.contactadress {
+.contact {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 14px;
@@ -60,6 +59,12 @@
 }
 .contactadress {
     color: var(--second_own-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.4;
+        letter-spacing: 0.02em;
+        list-style: none;
 }
 .contact:hover {
     color: var(--accent-color);
