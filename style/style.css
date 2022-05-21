@@ -48,14 +48,23 @@
         letter-spacing: 0.02em;
         color: var(--color_text);
 }
-.contact {
+.contact,
+.contactadress {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 14px;
         line-height: 1.4;
         letter-spacing: 0.02em;
-        color: var(--color_text);
+        color: #757575;
+        list-style: none;
 }
+.contactadress {
+    color: var(--second_own-color);
+}
+.contact:hover {
+    color: var(--accent-color);
+}
+
 /*--------------Body--------------*/
 .big_banner,
 .info_box {
