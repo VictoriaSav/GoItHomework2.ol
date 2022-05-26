@@ -9,8 +9,14 @@
     --color_text: #212121; 
     --adress-color: #757575;
 }
-.all_ul {
+ul {
     list-style: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: var(--second_own-color);
 }
 
 /*--------------Head--------------*/
@@ -18,18 +24,16 @@
     background: var(--second_own-color);
 }
 .top_logoWeb {
-    font-family:"Raleway", sans-serif;
+    font-family:"Raleway";
     font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
-        letter-spacing: 0.03em;
         color: var(--accent-color);
 }
 .top_logoStudio {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway";
     font-size: 26px;
         line-height: 1.19;
-        letter-spacing: 0.03em;
     color: var(--logo-Studio-color);
 }
 .button_top:hover,
@@ -41,27 +45,38 @@
 }
 
 .button_top {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 14px;
         line-height: 1.4;
         letter-spacing: 0.02em;
         color: var(--color_text);
 }
-.contact,
-.contactadress {
-    font-family: "Roboto", sans-serif;
+
+.contact_header {
     font-weight: 500;
         font-size: 14px;
         line-height: 1.4;
         letter-spacing: 0.02em;
-        color: #757575;
+        color: var(--adress-color);
         list-style: none;
 }
+.contact,
+.contactadress {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: var(--adress-color);
+    list-style: none;
+}
+
 .contactadress {
     color: var(--second_own-color);
 }
-.contact:hover {
+
+.contact:hover,
+.contact_header:hover {
     color: var(--accent-color);
 }
 
@@ -78,7 +93,6 @@
         top: 80px;
 }
 .big_banner_text {
-    font-family: "Roboto", sans-serif;
     font-weight: 900;
         font-size: 44px;
         line-height: 1.45;
@@ -88,7 +102,6 @@
         color: var(--second_own-color);
 }
 .big_banner_btn {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
         font-size: 16px;
         line-height: 1.85;
@@ -101,35 +114,26 @@
 }
 
 /*--------------About Us--------------*/
-.about_us {
-    background-color: var(--second_own-color);
-}
+
 .about_us_h3 {
-    font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.4;
-        letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--color_text);
 }
 .about_usParagr {
-    font-family: "Roboto", sans-serif;
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
-        letter-spacing: 0.03em;
         color: var(--adress-color);
 }
 
 /*--------------What we do--------------*/
 .what_we_do_h2 {
-    font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
-        letter-spacing: 0.03em;
         color: var(--color_text);
 }
 
@@ -138,54 +142,45 @@
     background-color: #F5F4FA;
 }
 .our_team_h2 {
-    font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
-        letter-spacing: 0.03em;
         color: var(--color_text);
 }
 .our_team_name {
-font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--color_text);
 }
 .our_team_position {
-font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--adress-color);
 }
 
 /*--------------Portfolio Button--------------*/
 
-.nav_btn {
-    font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 500;
+.btn_portfolio
+{
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         text-align: center;
-        letter-spacing: 0.03em;
         color: var(--color_text);
+        
 }
-
+.nav_btn:hover,
+.nav_btn:focus {
+    color: var(--second_own-color);
+    background-color: var(--accent-color);
+}
 /*--------------Portfolio --------------*/
-.portfolio {
-    background-color: var(--second_own-color);
-}
+
 .portfolio_name {
-font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -194,11 +189,8 @@ font-family: "Roboto", sans-serif;
     color: var(--color_text);
 }
 .portfolio_type {
-font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
     color: var(--adress-color);
 }
