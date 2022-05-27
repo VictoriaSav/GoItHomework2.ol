@@ -74,7 +74,6 @@ body {
 .contactadress {
     color: var(--second_own-color);
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
         font-size: 14px;
         line-height: 1.4;
         letter-spacing: 0.02em;
@@ -176,6 +175,7 @@ body {
         font-size: 16px;
         line-height: 1.62;
         text-align: center;
+        letter-spacing: 0.03em;
         color: var(--color_text);
         
 }
