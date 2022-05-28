@@ -1,6 +1,7 @@
 * {
     text-decoration: none
 }
+
 :root {
     --accent-color: #2196F3;
     --logo-Studio-color: black;
@@ -8,6 +9,7 @@
     --second_own-color: #FFFFFF;
     --color_text: #212121; 
     --adress-color: #757575;
+    --color_bg-btn: #F5F4FA;
 }
 ul {
     list-style: none;
@@ -172,15 +174,16 @@ body {
 
 /*--------------Portfolio Button--------------*/
 
-.btn_portfolio {
-    display: flex;
+.nav_btn {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--color_text);   
+        background: var(--color_bg-btn);
 }
+
 .nav_btn:hover,
 .nav_btn:focus {
     color: var(--second_own-color);
