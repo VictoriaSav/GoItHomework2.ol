@@ -36,6 +36,9 @@ body {
         line-height: 1.19;
     color: var(--logo-Studio-color);
 }
+.top_logoStudio.footer {
+    color: var(--second_own-color);
+}
 .button_top:hover,
 .button_top:focus {
     color: var(--accent-color); 
@@ -169,14 +172,14 @@ body {
 
 /*--------------Portfolio Button--------------*/
 
-.btn_portfolio
-{
+.btn_portfolio {
+    display: flex;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
-        color: var(--color_text);
+        color: var(--color_text);   
 }
 .nav_btn:hover,
 .nav_btn:focus {
